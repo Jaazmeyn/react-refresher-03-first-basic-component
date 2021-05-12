@@ -13,7 +13,8 @@ const App = () => {
 ]);
 
 const addNewGoalHandler = (newGoal) => {
-  setCourseGoals(courseGoals.concat(newGoal));
+  //render execute in the right order for sure: instead of passing data passing a function
+  setCourseGoals((prevCourseGoals)=>  prevCourseGoals.concat(newGoal))
 };
   return (
     <div className="course-goals">
