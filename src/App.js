@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import GoalList from './components/GoalList/GoalList';
 import NewGoal from './components/NewGoal/NewGoal';
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([

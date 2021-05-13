@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import './NewGoal.css';
+import './NewGoal.scss';
 
 
 const NewGoal = props => {
