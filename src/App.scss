@@ -1,7 +1,14 @@
 @import '../src/scss/variables.scss';
 
-.course-goals h2 {
-  text-align: center;
-  background-color: $mainColor;
+body{
+  background-color: $color-sub;
+
+  & .course-goals {
+
+    margin:0;
+    & h2 {
+      text-align: center;
+    }
+  }
 }
 

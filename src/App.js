@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import GoalList from './components/GoalList/GoalList';
 import NewGoal from './components/NewGoal/NewGoal';
+import Footer from './components/Footer/Footer';
 
 import './App.scss';
 
@@ -21,6 +22,7 @@ const addNewGoalHandler = (newGoal) => {
       <h2>Course Goals</h2>
       <NewGoal onAddGoal={addNewGoalHandler}/>
       <GoalList goals={courseGoals}/>
+      <Footer/>
     </div>
   );
 };
