@@ -5,13 +5,15 @@
     color: $color-sub;
     padding: 20px;
     text-align: center;
-    display: flex;
     bottom:0;
     position: absolute;
     width: 100%;
     
     & ul {
         list-style-type: none;
-        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+
     }
 }
